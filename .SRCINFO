@@ -1,7 +1,7 @@
 pkgbase = cutemarked
 	pkgdesc = Qt Markdown Editor
 	pkgver = 0.10.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/cloose/CuteMarkEd
 	arch = i686
 	arch = x86_64

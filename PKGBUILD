@@ -3,7 +3,7 @@
 _realname=CuteMarkEd
 pkgname=cutemarked
 pkgver=0.10.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Qt Markdown Editor"
 url="https://github.com/cloose/CuteMarkEd"
 arch=('i686' 'x86_64')
