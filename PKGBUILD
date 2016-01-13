@@ -2,8 +2,8 @@
 
 _realname=CuteMarkEd
 pkgname=cutemarked
-pkgver=0.10.1
-pkgrel=2
+pkgver=0.11.2
+pkgrel=1
 pkgdesc="Qt Markdown Editor"
 url="https://github.com/cloose/CuteMarkEd"
 arch=('i686' 'x86_64')
@@ -11,7 +11,7 @@ license=( "GPL2" )
 depends=( "qt5-webkit" "hunspell" "discount>=2.1.7" )
 makedepends=( 'qt5-tools' )
 source=( "https://github.com/cloose/CuteMarkEd/archive/v$pkgver.tar.gz" )
-md5sums=('1fd91413e1028aeb4f76d3e5b1c264f1')
+md5sums=('19720e0bc9e8ea829c2702f6931bc72a')
 
 prepare() {
   cd $srcdir/$_realname-$pkgver
