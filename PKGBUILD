@@ -6,7 +6,7 @@ pkgver=0.11.3
 pkgrel=2
 pkgdesc="Qt Markdown Editor"
 url="https://github.com/cloose/CuteMarkEd"
-arch=('i686' 'x86_64')
+arch=('x86_64')
 license=( "GPL2" )
 depends=( "qt5-webkit" "hunspell" "discount>=2.1.7" )
 makedepends=( 'qt5-tools' )
