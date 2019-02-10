@@ -3,7 +3,7 @@
 _realname=CuteMarkEd
 pkgname=cutemarked
 pkgver=0.11.3
-pkgrel=2
+pkgrel=3
 pkgdesc="Qt Markdown Editor"
 url="https://github.com/cloose/CuteMarkEd"
 arch=('x86_64')
@@ -16,6 +16,7 @@ md5sums=('c8ec68d01e4afd337f9212f150e7351f')
 prepare() {
   cd $srcdir/$_realname-$pkgver
   sed -i -e "s,#include <discount/mkdio.h>,#include <mkdio.h>,g" app-static/converter/discountmarkdownconverter.cpp
+  sed -i -e '/#include <QTableWidgetItem>/a #include <QAction>' app/optionsdialog.cpp
 }
 
 build() {
